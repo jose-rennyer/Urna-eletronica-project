@@ -167,3 +167,27 @@ body{
     text-align:center;
     line-height:350px;
 }
+
+@media(min-width:650px) and (max-width:850px){
+    .urna .tela-de-candidato{
+        width:300px;
+        height:400px;
+    }
+    .urna .teclado{
+        height:100%;
+        justify-content:center;
+    }
+}
+@media(max-width:649px){
+    .urna .tela-de-candidato{
+        width:300px;
+        height:400px;
+    }
+    .urna{
+        flex-direction:column;
+    }
+    .urna .teclado{
+        width:99.5%;
+        margin:auto;
+    }
+}
